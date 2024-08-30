@@ -1,0 +1,1 @@
+SELECT name FROM people JOIN stars ON people.id = stars.person_id JOIN (SELECT movie_id FROM stars JOIN people ON people.id = stars.person_id WHERE name = 'Kevin Bacon' AND birth = 1958) AS k_movies ON k_movies.movie_id = stars.movie_id WHERE name != 'Kevin Bacon';

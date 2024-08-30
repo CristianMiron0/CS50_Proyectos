@@ -1,0 +1,14 @@
+sort1 uses: Bubble sort
+
+How do you know?: The time of this sort for the random50000.txt was the biggest, but what makes me sure that sort1 is a bubble sort is
+                    the time test for the sorted10000.txt. In this test it got a better score than s3 and it make sense since the bubble sort
+                        will compare pairs of values and will only go once through the list if it is sorted.
+
+sort2 uses: Merge sort
+
+How do you know?: In all the tests this sort had the best times.
+
+sort3 uses: Selection sort
+
+How do you know?: The times of this sort was in the middle compared with the other sorts and it had a bigger time than s1 when sorting sorted10000.txt.
+                    This is because the sort had to compare each value in the list with the list.

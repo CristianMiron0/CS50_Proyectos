@@ -1,0 +1,22 @@
+HTML:
+- <script>
+- <h1>
+- <button>
+- <section>
+- <article>
+- <hr>
+- <p>
+- <footer>
+- <a>
+- <meta>
+
+CSS:
+- position
+- padding
+- text-align
+- font-size
+- flex
+- border
+
+For the JavaScript part I created a button that changes the color theme from light mode to dark mode.
+The Bootstrap was used for the color themes that are necesery in the light and dark mode.

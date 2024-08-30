@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+    <div class="mb-3 center-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ stock["symbol"] }}</td>
+                </tr>
+                <tr>
+                    <td>{{ stock["price"] | usd }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
