@@ -1,61 +1,70 @@
-# CS50 Proyectos
+# CS50 Projects
 
-## Los proyectos presentes en este repositorio fueron creados para el curso CS50
+## The projects present in this repository were created for the CS50 course
 
-### A continuación se enumeran los nombres de los proyectos junto con una breve descripción de los ejercicios a los que responden:
+### The names of the projects are listed below along with a brief description of the exercises they respond to:
 
-- #### **birthdays** -- Una aplicación web para realizar un seguimiento de los cumpleaños de amigos.
+### C:
 
-- #### **caesar** -- Un programa en C que permite cifrar mensajes mediante el cifrado de César. En el momento en que el usuario ejecuta el programa, puede decidir, proporcionando un argumento en la línea de comandos, cuál debe ser la clave en el mensaje secreto que proporcionará en tiempo de ejecución.
+- **mario-more** -- A small C program that recreates Mario's pyramids, using hashes ("#") for the bricks
+  
+- **me** -- The C version of the classic Hello, World!
+  
+- **cash** -- A C program that prints the minimum coins needed to make the given amount of change, in cents, after a purchase at a store.
+  
+- **credit** -- A C program that verifies the validity of a given credit card number and prints the specific credit card company.
+  
+- **scrabble** -- A C program that determines the winner of a short Scrabble-like game.
+  
+- **readability** -- A C program that calculates the approximate grade level needed to understand a text. The program would print as output “Grade X”, where “X” is the calculated grade level, rounded to the nearest integer.
+  
+- **caesar** -- A C program that allows messages to be encrypted using the Caesar cipher.
+  
+- **substitution** -- A C program that allows messages to be encrypted using a substitution cipher.
+  
+- **plurality** -- A C program that conducts a simple majority election. In simple majority voting, each voter can vote for one candidate. At the end of the election, the candidate who receives the most votes is declared the winner of the election.
+  
+- **runoff** -- A C program to simulate a runoff election. In an instant runoff election, voters can rank as many candidates as they wish. If any candidate has a majority (more than 50%) of the first preference votes, that candidate is declared the winner of the election. If no candidate has more than 50% of the votes, an “instant runoff” occurs. The candidate who received the fewest votes is eliminated from the election, and anyone who originally chose that candidate as their first preference now has their second preference considered.
+  
+- **volume** -- A C program to modify the volume of an audio file.
+  
+- **fillter-less** -- A C program to apply filters to BMP: grayscale, sepia, reflection, blur
+  
+- **recover** -- A C program to recover JPEG files from a memory card
+  
+- **inheritance** -- A C program to simulate inheritance of blood types for each member of a family
+  
+- **speller** -- A C program that checks the spelling of a file using a hash table.
+  
 
-- #### **cash** -- Un programa en C que imprime las monedas mínimas necesarias para realizar la cantidad de cambio dada, en centavos, después de una compra en una tienda.
+### Python:
 
-- #### **credit** -- Un programa en C que verifica la validez de un número de tarjeta de crédito determinado e imprime la compañía específica de la tarjeta de crédito.
+- **sentimental-credit** -- The Python version of credit
+  
+- **sentimental-hello** -- The Python version of the classic Hello, world!
+  
+- **sentimental-mario-more** -- The Python version of mario-more
+  
+- **sentimental-readability** -- The Python version of readability
+  
+- **dna** -- A Python program that identifies who a DNA sequence belongs to.
+  
 
-- #### **dna** -- Un programa en Python que identifica a quién pertenece una secuencia de ADN.
+### SQL:
 
-- #### **fiftyville** -- Resolver el misterio del pato CS50 robado revisando todas las tablas de datos y encontrando pistas. Todo lo que sabes es que el robo tuvo lugar el 28 de julio de 2023 y que tuvo lugar en Humphrey Street.
+- **fiftyville** -- Solve the mystery of the stolen CS50 duck by going through all the data tables and finding clues. All you know is that the theft took place on July 28th, 2023 and that it took place on Humphrey Street.
+  
+- **movies** -- A problem where we needed to answer a variety of different questions using SQL queries by selecting data from one or more tables present in the IMDB archive
+  
+- **songs** -- A problem where we needed to answer a variety of different questions using SQL queries by selecting data from one or more tables present in the Spotify archive.
+  
 
-- #### **fillter-less** -- Un programa en C para aplicar filtros a BMP: escala de grises, sepia, reflejo, desenfoque
+### HTML, CSS, JAVASCRIPT:
 
-- #### **finance** -- Un sitio web a través del cual los usuarios pueden comprar y vender acciones.
-
-- #### **homepage** -- Una página de inicio que utiliza HTML, CSS y JavaScript que ofrece una descripción rápida de mí.
-
-- #### **inheritance** -- Un programa en C para simular la herencia de los tipos de sangre para cada miembro de una familia
-
-- #### **mario-more** -- Un pequeño programa en C que recrea las pirámides de Mario, usando hashes (#) para los ladrillos
-
-- #### **me** -- La versión C del clásico ¡Hola, mundo!
-
-- #### **movies** -- Un problema en el que necesitábamos responder una variedad de preguntas diferentes mediante consultas SQL seleccionando datos de una o más tablas presentes en el archivo de IMDB
-
-- #### **plurality** -- Un programa en C que lleva a cabo una elección por mayoría simple. En la votación por mayoría simple, cada votante puede votar por un candidato. Al final de la elección, el candidato que obtenga la mayor cantidad de votos es declarado ganador de la elección.
-
-- #### **readability** -- Un programa en C que calcula el nivel de grado aproximado necesario para comprender un texto. El programa imprimiría como salida “Grado X”, donde “X” es el nivel de grado calculado, redondeado al entero más cercano.
-
-- #### **recover** -- Un programa en C para recuperar archivos JPEG de una tarjeta de memoria
-
-- #### **runoff** -- Un programa en C para simular una segunda vuelta electoral. En una segunda vuelta electoral instantánea, los votantes pueden clasificar a tantos candidatos como deseen. Si algún candidato tiene una mayoría (más del 50%) de los votos de primera preferencia, ese candidato es declarado ganador de la elección. Si ningún candidato tiene más del 50% de los votos, se produce una “segunda vuelta instantánea”. El candidato que recibió la menor cantidad de votos es eliminado de la elección, y cualquiera que originalmente eligió a ese candidato como su primera preferencia ahora tiene su segunda preferencia considerada.
-
-- #### **scrabble** -- Un programa en C que determina el ganador de un juego corto parecido al Scrabble. El programa solicitaría la entrada de datos dos veces: una para que el “Jugador 1” ingrese su palabra y otra para que el “Jugador 2” ingrese su palabra. Luego, dependiendo de qué jugador obtenga la mayor cantidad de puntos, el programa imprimiría “¡El jugador 1 gana!”, “¡El jugador 2 gana!” o “¡Empate!” (en caso de que los dos jugadores obtengan la misma puntuación).
-
-- #### **sentimental-credit** -- La versión Python del credit
-
-- #### **sentimental-hello** -- La versión Python del clásico ¡Hola, mundo!
-
-- #### **sentimental-mario-more** -- La versión Python del mario-more
-
-- #### **sentimental-readability** -- La versión Python del readability
-
-- #### **songs** -- Un problema en el que necesitábamos responder una variedad de preguntas diferentes mediante consultas SQL seleccionando datos de una o más tablas presentes en el archivo de Spotify.
-
-- #### **sort** -- En este problema, analizamos tres programas de ordenamiento (¡compilados!) para determinar qué algoritmos utilizan: ordenamiento por selección, ordenamiento por burbuja o ordenamiento por combinación.
-
-- #### **speller** -- Un programa en C que revisa la ortografía de un archivo utilizando una tabla hash.
-
-- #### **substitution** -- Un programa en C que permite cifrar mensajes mediante un cifrado de sustitución. En el momento en que el usuario ejecuta el programa, puede decidir, proporcionando un argumento en la línea de comandos, cuál debe ser la clave en el mensaje secreto que proporcionará en tiempo de ejecución.
-
-- #### **trivia** -- Una página web que permite a los usuarios responder preguntas de trivia.
-
-- #### **volume** -- Un programa en C para modificar el volumen de un archivo de audio.
+- **finance** -- A website through which users can buy and sell stocks.
+  
+- **birthdays** -- A web application to keep track of friends' birthdays.
+  
+- **homepage** -- A home page using HTML, CSS, and JavaScript that gives a quick description of me.
+  
+- **trivia** -- A web page that allows users to answer trivia questions.
